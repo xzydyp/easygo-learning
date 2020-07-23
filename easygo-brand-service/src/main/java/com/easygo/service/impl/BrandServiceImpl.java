@@ -52,4 +52,9 @@ public class BrandServiceImpl implements BrandService {
     public int deleteSome(String ids) {
         return brandMapper.deleteSome(ids);
     }
+
+    @Override
+    public int deleteSome1(Integer[] ids) {
+        return brandMapper.deleteSome1(ids);
+    }
 }

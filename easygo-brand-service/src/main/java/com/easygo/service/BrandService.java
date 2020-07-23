@@ -22,4 +22,6 @@ import java.util.List;
      int deleteBrand(Integer id);
 
      int deleteSome(String ids);
+
+     int deleteSome1(Integer[] ids);
 }

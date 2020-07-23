@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>品牌管理</title>
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/adminLTE/css/AdminLTE.css">
+    <link rel="stylesheet" href="../plugins/adminLTE/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+	<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		//新增按钮提交表单
+		function addBrand() {
+			var data=$("#addForm").serialize();
+			$.ajax({
+				url:"brand_add",
+				data:data,
+				type:"post",
+				dataType:"json",
+				success:function (result) {
+					//alert(JSON.stringify(result));
+					if(result.code==200){
+						alert(result.message);
+						location.href="brand_getBrands";
+					}else{
+						alert(result.message);
+					}
+				}
+			});
+		}
+
+		//跳更新页面
+		function goupdate(id) {
+			$.getJSON("brand_getBrandById",{"id":id},function (result) {
+				//alert(JSON.stringify(result));
+				//回显到更新页面
+				$("#update_name").val(result.name);
+				$("#update_first_char").val(result.first_char);
+				$("#update_image").val(result.image);
+				$("#update_id").val(result.id);
+
+			});
+		}
+
+		//异步更新
+		function updateBrand() {
+			var data = $("#updateForm").serialize();
+			$.post("brand_update",data,function (result) {
+				//alert(JSON.stringify(result));
+				if(result.code==200){
+					alert("更新成功");
+					location.href="brand_getBrands";
+				}else{
+					alert("更新失败");
+				}
+			},"json");
+		}
+
+		//删除
+		function deleteBrand(id) {
+			if(confirm("确定要删除我吗?")){
+				$.getJSON("brand_delete",{"id":id},function (result) {
+					//alert(JSON.stringify(result));
+					if(result.code==200){
+						alert("删除成功");
+						location.href="brand_getBrands";
+					}else{
+						alert("删除失败");
+					}
+				});
+			}
+		}
+		
+		//全选
+		function chAll(ck) {
+			$("[name='child']").prop("checked",$(ck).prop("checked"));
+		}
+		//点击每个孩子
+		function ckChild() {
+			var totalcount=$("[name='child']").length;
+			var selectcount=$("[name='child']:checked").length;
+			if(totalcount==selectcount){
+				$("#selall").prop("checked",true);
+			}else{
+				$("#selall").prop("checked",false);
+			}
+		}
+
+		//批量删除
+		function deleteSome() {
+			var ids=new Array();
+			var childs=$("[name='child']:checked");
+			if(childs.length>0){
+				for(var i=0;i<childs.length;i++){
+					var id=childs[i].value;
+					ids.push(id);
+				}
+				alert(ids);
+				//发送异步请求
+				$.ajax({
+					url:"brand_deleteSome1",
+					data:"ids="+ids,
+					dataType:"json",
+					type:"post",
+					success:function (result) {
+						//alert(JSON.stringify(result));
+						if (result.code==200){
+							alert("批量删除成功");
+							location.href="brand_getBrands";
+						}else{
+							alert("批量删除失败")
+						}
+					}
+				});
+			}else{
+				alert("你他娘的给我选中之后再删除~~~");
+			}
+
+
+		}
+
+	</script>
+</head>
+<body class="hold-transition skin-red sidebar-mini">
+  <!-- .box-body -->
+                    <div class="box-header with-border">
+                        <h3 class="box-title">品牌管理</h3>
+                    </div>
+
+                    <div class="box-body">
+
+                        <!-- 数据表格 -->
+                        <div class="table-box">
+
+                            <!--工具栏-->
+                            <div class="pull-left">
+                                <div class="form-group form-inline">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default" title="新建" data-toggle="modal" data-target="#addModal" ><i class="fa fa-file-o"></i> 新建</button>
+                                        <button type="button" class="btn btn-default" onclick="deleteSome();" title="批量删除" ><i class="fa fa-trash-o"></i> 批量删除</button>
+                                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i class="fa fa-refresh"></i> 刷新</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-tools pull-right">
+                                <div class="has-feedback">
+
+                                </div>
+                            </div>
+                            <!--工具栏/-->
+
+			                  <!--数据列表-->
+			                  <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
+			                      <thead>
+			                          <tr>
+			                              <th class="" style="padding-right:0px">
+			                                  <input id="selall" onclick="chAll(this);" type="checkbox" class="icheckbox_square-blue">
+			                              </th> 
+										  <th class="sorting_asc">品牌ID</th>
+										  <th class="sorting">品牌名称</th>	
+																      
+									      <th class="sorting">品牌首字母</th>									     				
+					                      <th class="text-center">操作</th>
+			                          </tr>
+			                      </thead>
+			                      <tbody>
+			                          <tr th:each="brand:${brands}">
+			                              <td><input th:value="${brand.id}" type="checkbox" name="child" onclick="ckChild();"></td>
+				                          <td th:text="${brand.id}">1</td>
+										  <td th:text="${brand.name}">联想</td>
+		                                  <td th:text="${brand.first_char}">L</td>
+		                                  <td class="text-center">                                           
+		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" th:onclick="|goupdate(${brand.id});|" data-target="#editModal">修改</button>
+		                                 	  <button type="button" class="btn bg-red btn-xs" data-toggle="modal"  th:onclick="|deleteBrand(${brand.id});|">删除</button>
+		                                  </td>
+			                          </tr>
+			                      </tbody>
+			                  </table>
+			                  <!--数据列表/-->
+                        </div>
+                        <!-- 数据表格 /-->
+                     </div>
+                    <!-- /.box-body -->
+
+<!-- 默认是隐藏的编辑窗口，点击按钮弹出 -->
+  <form action="#" method="post" id="updateForm">
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" >
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">品牌编辑</h3>
+		</div>
+		<div class="modal-body">		
+			<table class="table table-bordered table-striped"  width="800px">
+		      	<tr>
+		      		<td>品牌名称</td>
+		      		<td>
+						<input type="hidden" name="id" id="update_id"/>
+						<input  class="form-control" name="name" id="update_name" placeholder="品牌名称" >  </td>
+		      	</tr>		      	
+		      	<tr>
+		      		<td>首字母</td>
+		      		<td><input  class="form-control" name="first_char" id="update_first_char" placeholder="首字母">  </td>
+		      	</tr>
+				<tr>
+					<td>品牌图片</td>
+					<td><input  class="form-control" name="image" id="update_image" placeholder="品牌图片">  </td>
+				</tr>
+			</table>
+		</div>
+		<div class="modal-footer">						
+			<button class="btn btn-success" data-dismiss="modal" aria-hidden="true" onclick="updateBrand();">更新</button>
+			<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+		</div>
+	  </div>
+	</div>
+</div>
+  </form>
+
+  <!-- 默认是隐藏的新增窗口，点击按钮弹出 -->
+  <form id="addForm" action="#" method="post">
+  <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" >
+		  <div class="modal-content">
+			  <div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				  <h3 id="myModalLabel1">品牌新增</h3>
+			  </div>
+			  <div class="modal-body">
+				  <table class="table table-bordered table-striped"  width="800px">
+					  <tr>
+						  <td>品牌名称</td>
+						  <td>
+							  <input  class="form-control" name="name" placeholder="品牌名称" >  </td>
+					  </tr>
+					  <tr>
+						  <td>首字母</td>
+						  <td><input  class="form-control" name="first_char" placeholder="首字母">  </td>
+					  </tr>
+					  <tr>
+						  <!--目前模拟新增一个图片，后期搭建文件服务器，实现真正的文件上传-->
+						  <td>品牌图片</td>
+						  <td><input  class="form-control" name="image" placeholder="品牌图片">  </td>
+					  </tr>
+				  </table>
+			  </div>
+			  <div class="modal-footer">
+				  <button class="btn btn-success" data-dismiss="modal" aria-hidden="true" onclick="addBrand();">新增</button>
+				  <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+			  </div>
+		  </div>
+	  </div>
+  </div>
+  </form>
+</body>
+</html>

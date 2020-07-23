@@ -36,4 +36,7 @@ public interface BrandClient {
 
     @RequestMapping("/brand_deleteSome")
      int deleteSome(@RequestParam(value = "ids") String ids);
+
+    @RequestMapping("/brand_deleteSome1")
+    int deleteSome1(@RequestParam(value = "ids") String ids);
 }

@@ -2,6 +2,7 @@ package com.easygo.controller;
 
 import com.easygo.pojo.Brand;
 import com.easygo.service.BrandService;
+import org.apache.commons.beanutils.ConvertUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.web.bind.annotation.*;
@@ -58,12 +59,20 @@ public class BrandController {
 
     @RequestMapping("/brand_delete")
     public int deleteBrand(@RequestParam Integer id){
+
         return brandService.deleteBrand(id);
     }
 
     @RequestMapping("/brand_deleteSome")
     public int deleteSome(@RequestParam String ids){
         return brandService.deleteSome(ids);
+    }
+
+    @RequestMapping("/brand_deleteSome1")
+    public int deleteSome1(@RequestParam String ids){
+        String[] idArray = ids.split(",");
+        Integer[] convert = (Integer[]) ConvertUtils.convert(idArray, Integer.class);
+        return brandService.deleteSome1(convert);
     }
 
 }

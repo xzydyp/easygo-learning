@@ -18,6 +18,7 @@
         <module>easygo-pojo</module>
         <module>easygo-eureka</module>
         <module>easygo-admin-web</module>
+        <module>easygo-commons</module>
     </modules>
 
     <dependencies>
