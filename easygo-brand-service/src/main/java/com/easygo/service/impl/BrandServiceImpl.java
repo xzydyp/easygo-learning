@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author:熊志阳
@@ -56,5 +57,15 @@ public class BrandServiceImpl implements BrandService {
     @Override
     public int deleteSome1(Integer[] ids) {
         return brandMapper.deleteSome1(ids);
+    }
+
+    @Override
+    public int getTotalCount() {
+        return brandMapper.getTotalCount();
+    }
+
+    @Override
+    public List<Brand> getPageBrands(Map<String, Object> map) {
+        return brandMapper.getPageBrands(map);
     }
 }

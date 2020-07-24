@@ -5,6 +5,7 @@ import com.easygo.pojo.Brand;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author:熊志阳
@@ -37,4 +38,10 @@ import java.util.List;
     int deleteSome(@Param("ids") String ids);
 
     int deleteSome1(Integer[] ids);
+
+   //查询总条数(没有条件)
+    int getTotalCount();
+
+   //查询每页的数据(没有条件)
+    List<Brand> getPageBrands(Map<String,Object> map);
 }

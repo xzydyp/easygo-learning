@@ -3,6 +3,7 @@ package com.easygo.controller;
 import com.easygo.api.BrandClient;
 import com.easygo.pojo.Brand;
 import com.easygo.utils.MessageResults;
+import com.easygo.utils.PageUtils;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -32,7 +33,6 @@ public class BrandController {
     public String getBrands(Model model) {
         List<Brand> brands = brandClient.getBrands();
         model.addAttribute("brands", brands);
-        //System.out.println(123455);
         return "brand";
     }
 
@@ -109,6 +109,21 @@ public class BrandController {
             results = new MessageResults(500, "批量删除失败");
         }
         return results;
+    }
+
+
+    /**
+     * 分页查询
+     * @param pageIndex
+     * @param pageSize
+     * @param model
+     * @return
+     */
+    @RequestMapping("/brand_page")
+    public String getBrandsByPage(@RequestParam(defaultValue = "1",required = false) Integer pageIndex, @RequestParam(defaultValue = "5",required = false) Integer pageSize, Model model){
+        PageUtils<Brand> pageUtils= brandClient.getBrandsByPage(pageIndex,pageSize);
+        model.addAttribute("pageUtils",pageUtils);
+        return "brand";
     }
 
 

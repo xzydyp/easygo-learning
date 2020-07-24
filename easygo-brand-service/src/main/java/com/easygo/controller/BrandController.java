@@ -2,12 +2,15 @@ package com.easygo.controller;
 
 import com.easygo.pojo.Brand;
 import com.easygo.service.BrandService;
+import com.easygo.utils.PageUtils;
 import org.apache.commons.beanutils.ConvertUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
@@ -73,6 +76,19 @@ public class BrandController {
         String[] idArray = ids.split(",");
         Integer[] convert = (Integer[]) ConvertUtils.convert(idArray, Integer.class);
         return brandService.deleteSome1(convert);
+    }
+
+
+    @RequestMapping("/brand_page")
+    public PageUtils getBrandsByPage(@RequestParam(defaultValue = "1",required = false) Integer pageIndex, @RequestParam(defaultValue = "5",required = false) Integer pageSize){
+        int totalCount = brandService.getTotalCount();
+        Map<String,Object> map=new HashMap<>();
+        map.put("pageStart",(pageIndex-1)*pageSize);
+        map.put("pageSize",pageSize);
+        List<Brand> brands = brandService.getPageBrands(map);
+        //封装一个通用的分页工具类
+        PageUtils pageUtils=new PageUtils(pageIndex,pageSize,totalCount,brands);
+        return pageUtils;
     }
 
 }

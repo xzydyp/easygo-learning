@@ -2,366 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2c876f-c1ee-4fde-8e72-038ecf5b19a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/nprogress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/verify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/webbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/addressList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/getOrderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/jquery.slideunlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/login-manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/person-collect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/person-footmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/seckill-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/shoplogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/pages/sm-city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/birthday/birthday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/citypicker/distpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/sui/sui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/js/plugins/upload/uploadPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/iconfont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/message.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/nprogress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/css/verify.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/cw1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/doc.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/lenovo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/qf_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/showPng.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/images/showPng1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/echarts.common.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/jparticle.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/verify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/nprogress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/onelevel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/pjax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/tem/studenttem.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/AdminLTE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/_all-skins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-black-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-black-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-black.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-green-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-red-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/css/skins/skin-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/boxed-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/boxed-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/credit/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/credit/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/credit/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/credit/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/credit/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/credit/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/credit/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/default-50x50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/js/app.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/adminLTE/js/pages/dashboard2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/angularjs/angular-animate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/angularjs/angular-route.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/angularjs/angular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/angularjs/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/angularjs/pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/images/arrows.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/jQuery/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/angular-select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/release.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2-bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_en.js.template" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_pt-PT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2_locale_zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/plugins/select2/select2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-commons/easygocommons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/easygo-commons/src/main/java/com.easygo.utils/MessageResults.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-commons/src/main/java/com.easygo.utils/PageUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-admin-web/target/classes/com/easygo/api/BrandClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/target/classes/com/easygo/api/BrandClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-admin-web/target/classes/com/easygo/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/target/classes/com/easygo/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/brand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-brand-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/mapper/BrandMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/mapper/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/mapper/BrandMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/service/BrandService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/target/classes/com/easygo/service/impl/BrandServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-brand-service/target/classes/mapper/BrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-brand-service/target/classes/mapper/BrandMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/easygo-brand-service/target/" />
@@ -394,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/BrandController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="173">
+              <caret line="123" column="59" selection-start-line="123" selection-start-column="59" selection-end-line="123" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -406,46 +65,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="198">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java">
+        <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="108">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="185" column="20" lean-forward="true" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/controller/BrandController.java">
+        <entry file="file://$PROJECT_DIR$/easygo-brand-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1860#1861#0" expanded="true" />
-                <element signature="e#1911#1912#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+            <state relative-caret-position="1650">
+              <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -467,7 +121,6 @@
       <find>public</find>
       <find>com.google.code.gson</find>
       <find>gson</find>
-      <find>easygo-brand-service</find>
       <find>child</find>
       <find>deleteBrand</find>
       <find>brand_delete</find>
@@ -476,10 +129,18 @@
       <find>deletesome</find>
       <find>123455</find>
       <find>brand_deleteSome1</find>
+      <find>pageUtils.records</find>
+      <find>easygo</find>
+      <find>easygo-brand-service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="branch20200723" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -489,8 +150,6 @@
         <option value="$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/easygo-brand-service/src/test/java/BrandServiceAppTest.java" />
         <option value="$PROJECT_DIR$/easygo-brand-service/src/test/java/com/easygo/mapper/BrandMapperTest.java" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/easygo-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/easygo-eureka/src/main/java/com/easygo/EurekaApp.java" />
@@ -501,14 +160,16 @@
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/AdminWebApp.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/easygo-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/pom.xml" />
         <option value="$PROJECT_DIR$/easygo-admin-web/pom.xml" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java" />
+        <option value="$PROJECT_DIR$/easygo-brand-service/pom.xml" />
         <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/impl/BrandServiceImpl.java" />
+        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml" />
+        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/mapper/BrandMapper.java" />
+        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/BrandController.java" />
+        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html" />
+        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java" />
       </list>
     </option>
   </component>
@@ -681,6 +342,16 @@
               <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -690,6 +361,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -744,7 +439,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595506386853" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595509700532" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -759,11 +454,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zrarProjects\easygo\easygo-commons\src\main\java\com.easygo.utils" />
       <recent name="D:\zrarProjects\easygo\easygo-commons\src\main\java" />
       <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\resources" />
       <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\java\com\easygo\controller" />
       <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\java\com\easygo" />
-      <recent name="D:\zrarProjects\easygo\easygo-eureka\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -911,7 +606,7 @@
       <workItem from="1595313158018" duration="17653000" />
       <workItem from="1595380725610" duration="10009000" />
       <workItem from="1595403959064" duration="5900000" />
-      <workItem from="1595496030582" duration="6131000" />
+      <workItem from="1595496030582" duration="8564000" />
     </task>
     <servers />
   </component>
@@ -948,11 +643,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41768000" />
+    <option name="totallyTimeSpent" value="44201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -965,12 +659,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3536068" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2592068" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6487252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.41076487" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32956153" />
@@ -1029,6 +723,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/easygo-brand-service/target/classes/application.properties" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.1.RELEASE/spring-boot-autoconfigure-2.1.1.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
@@ -1077,16 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="930">
           <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/test/java/com/easygo/mapper/BrandMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1361,13 +1071,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/AdminWebApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1402,13 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-commons/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-commons/src/main/java/com.easygo.utils/MessageResults.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -1419,20 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="106" column="36" selection-start-line="106" selection-start-column="36" selection-end-line="106" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1440,17 +1122,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        <state relative-caret-position="151">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/test/java/com/easygo/mapper/BrandMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="43" column="66" lean-forward="true" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/mapper/BrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="274">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1459,8 +1172,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/impl/BrandServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="42" />
+        <state relative-caret-position="154">
+          <caret line="68" column="44" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#669#670#0" expanded="true" />
@@ -1476,61 +1189,90 @@
             <element signature="e#1200#1201#0" expanded="true" />
             <element signature="e#1250#1251#0" expanded="true" />
             <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="154">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="291">
+          <caret line="89" column="14" lean-forward="true" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1860#1861#0" expanded="true" />
-            <element signature="e#1911#1912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-commons/src/main/java/com.easygo.utils/PageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/target/classes/com/easygo/controller/BrandController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1685">
+          <caret line="116" column="41" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#3704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="185" column="20" lean-forward="true" selection-start-line="185" selection-start-column="20" selection-end-line="185" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        <state relative-caret-position="173">
+          <caret line="123" column="59" selection-start-line="123" selection-start-column="59" selection-end-line="123" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="43" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
