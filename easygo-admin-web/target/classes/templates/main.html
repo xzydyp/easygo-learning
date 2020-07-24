@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="../media/layui/css/layui.css" media="all">
+<link rel="stylesheet" href="../media/layui/css/layui.css" media="all">
+
+<link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../plugins/adminLTE/css/AdminLTE.css">
+<link rel="stylesheet" href="../plugins/adminLTE/css/skins/_all-skins.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+
+<style>
+.info-box {
+	height: 85px;
+	background-color: white;
+	background-color: #ecf0f5;
+}
+
+.info-box .info-box-icon {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 2px;
+	display: block;
+	float: left;
+	height: 85px;
+	width: 85px;
+	text-align: center;
+	font-size: 45px;
+	line-height: 85px;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.info-box .info-box-content {
+	padding: 5px 10px;
+	margin-left: 85px;
+}
+
+.info-box .info-box-content .info-box-text {
+	display: block;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+}
+
+.info-box .info-box-content .info-box-number {
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+}
+.major {
+	font-weight: 10px;
+	color: #01AAED;
+}
+.main {
+	margin-top: 25px;
+}
+
+.main .layui-row {
+	margin: 10px 0;
+}
+</style>
+
+    <script type="text/javascript">
+
+        //异步获取日志
+        $(function () {
+            $.ajax({
+                url:"admin_getLoginLogs",
+                type:"post",
+                dataType:"json",
+                success:function (result) {
+                    alert(JSON.stringify(result));
+                    for(var i=1;i<result.length;i++){
+                        //<tr><td>admin</td><td>117.159.15.221</td><td>成都</td><td>2018-07-14</td></tr>
+                        $("#log_tr").append("<tr><td>"+result[i].no+"</td><td>"+result[i].ip+"</td><td>"+result[i].location+"</td><td>"+result[i].createtime+"</td></tr>");
+                    }
+                }
+            });
+        });
+
+    </script>
+</head>
+
+<body class="hold-transition skin-blue sidebar-mini">
+	
+	<!-- 内容区域 -->
+            <!-- 正文区域 -->
+            <section class="content">
+                <!-- 统计数值 -->
+                <div class="row">
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-aqua">
+                            <div class="inner">
+                                <h3>150</h3>
+
+                                <p>新订单</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-bag"></i>
+                            </div>
+                            <a href="all-order-manage-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-green">
+                            <div class="inner">
+                                <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                                <p>转化率</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-stats-bars"></i>
+                            </div>
+                            <a href="all-ad-statistics-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-yellow">
+                            <div class="inner">
+                                <h3>44</h3>
+
+                                <p>新注册用户</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-person-add"></i>
+                            </div>
+                            <a href="all-member-manage-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <!-- ./col -->
+                    <div class="col-lg-3 col-xs-6">
+                        <!-- small box -->
+                        <div class="small-box bg-red">
+                            <div class="inner">
+                                <h3>65</h3>
+
+                                <p>日PV</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-pie-graph"></i>
+                            </div>
+                            <a href="all-ad-statistics-list.html" class="small-box-footer">详细 <i class="fa fa-arrow-circle-right"></i></a>
+                        </div>
+                    </div>
+                    <table class="layui-table" id="tbdata">
+					  <thead>
+					  <tr>
+					    <td>登录账户</td>
+					    <td>登录IP</td>
+					    <td>登录城市</td>
+					    <td>登录时间</td>
+					  </tr>
+					  </thead>
+					  <tbody id="log_tr">
+
+					  <!-- <tr>
+					    <td>admin</td>
+					    <td>117.159.15.221</td>
+					    <td>成都</td>
+					    <td>2018-07-14</td>
+					  </tr>-->
+
+					  </tbody>
+					</table>
+                    
+                    <!-- ./col -->
+                </div>
+                <!-- /.row -->
+            </section>
+		<div>
+		</div>
+	</div>
+</body>
+
+</html>

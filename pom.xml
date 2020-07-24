@@ -19,6 +19,7 @@
         <module>easygo-eureka</module>
         <module>easygo-admin-web</module>
         <module>easygo-commons</module>
+        <module>easygo-admin-service</module>
     </modules>
 
     <dependencies>

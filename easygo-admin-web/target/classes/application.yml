@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: easygo-admin-web
+  main:
+    allow-bean-definition-overriding: true
     #Thymeleaf配置
   thymeleaf:
     cache: false
