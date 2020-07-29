@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- 页面meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>广告分类管理</title>
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/adminLTE/css/AdminLTE.css">
+    <link rel="stylesheet" href="../plugins/adminLTE/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+	<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="media/layui/layui.all.js"></script>
+	<script type="text/javascript">
+		//跳转页面
+		function goPage(pageIndex,pageSize) {
+			//contentCategory_page?pageIndex=1&pageSize=${pageUtils.pageSize}
+			//搜索表单,动态修改action属性
+			$("#searchForm").prop("action","contentCategory_page?pageIndex="+pageIndex+"&pageSize="+pageSize);
+			//当表单提交，那么表单中的参数也会一起提交
+			$("#searchForm").submit();
+		}
+		
+		//新增
+		function addContentCategory() {
+			var data=$("#addForm").serialize();
+			$.ajax({
+				url:"contentCategory_add",
+				data:data,
+				type:"post",
+				dataType:"json",
+				success:function (result) {
+					//alert(JSON.stringify(result));
+					if(result.code==200){
+						//alert(result.message);
+						location.href="contentCategory_page";
+					}else{
+						alert(result.message);
+					}
+				}
+			});
+		}
+		
+		//跳转更新
+		function goupdate(id) {
+			$.getJSON("contentCategory_getById",{"id":id},function (result) {
+				alert(JSON.stringify(result));
+				//回显到更新页面
+				$("#update_name").val(result.name);
+				$("#update_id").val(result.id);
+			});
+		}
+		//更新
+		function deleteContentCategory(id) {
+			layer.confirm("确定要删除吗",function () {
+				$.ajax({
+					url:"contentCategory_delete?id="+id,
+					type:"post",
+					dataType:"json",
+					success:function (result) {
+						if(result.code==200){
+							//alert(result.message);
+							location.href="contentCategory_page";
+						}else{
+							alert(result.message);
+						}
+					}
+				});
+			});
+
+		}
+
+		//批量删除
+		function deleteSome() {
+			var ids=new Array();
+			var childs=$("[name='child']:checked");
+			if(childs.length>0){
+				for(var i=0;i<childs.length;i++){
+					var id=childs[i].value;
+					ids.push(id);
+				}
+				alert(ids);
+				//发送异步请求
+				$.ajax({
+					url:"contentCategory_deleteSome",
+					data:"ids="+ids,
+					dataType:"json",
+					type:"post",
+					success:function (result) {
+						//alert(JSON.stringify(result));
+						if (result.code==200){
+							alert("批量删除成功");
+							location.href="contentCategory_page";
+						}else{
+							alert("批量删除失败")
+						}
+					}
+				});
+			}else{
+				alert("你他娘的给我选中之后再删除~~~");
+			}
+
+
+		}
+
+		//更新
+		function updateContentCategory() {
+			var data=$("#updateForm").serialize();
+			$.ajax({
+				url:"contentCategory_update",
+				data:data,
+				type:"post",
+				dataType:"json",
+				success:function (result) {
+					//alert(JSON.stringify(result));
+					if(result.code==200){
+						//alert(result.message);
+						location.href="contentCategory_page";
+					}else{
+						alert(result.message);
+					}
+				}
+			});
+		}
+
+	</script>
+    
+</head>
+
+<body class="hold-transition skin-red sidebar-mini"  >
+  <!-- .box-body -->
+                    <div class="box-header with-border">
+                        <h3 class="box-title">广告分类管理</h3>
+                    </div>
+
+                    <div class="box-body">
+
+                        <!-- 数据表格 -->
+                        <div class="table-box">
+
+                            <!--工具栏-->
+                            <div class="pull-left">
+                                <div class="form-group form-inline">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-default" title="新建" data-toggle="modal" data-target="#addModal" ><i class="fa fa-file-o"></i> 新建</button>
+                                        <button type="button" class="btn btn-default" title="删除" onclick="deleteSome()" ><i class="fa fa-trash-o"></i> 删除</button>
+                                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i class="fa fa-refresh"></i> 刷新</button>
+                                    </div>
+                                </div>
+                            </div>
+							<form action="contentCategory_page?pageIndex=1&pageSize=5" method="post" id="searchForm">
+								<div class="box-tools pull-right">
+									<div class="has-feedback">
+										名称：<input  name="name" th:value="${name}"/>
+										<button class="btn btn-default" type="submit">查询</button>
+									</div>
+								</div>
+							</form>
+                            <!--工具栏/-->
+
+			                  <!--数据列表-->
+			                  <table id="dataList" class="table table-bordered table-striped table-hover dataTable">
+			                      <thead>
+			                          <tr>
+			                              <th class="" style="padding-right:0px">
+			                                  <input id="selall" type="checkbox" class="icheckbox_square-blue">
+			                              </th> 
+										  <th class="sorting_asc">分类ID</th>
+									      <th class="sorting">分类名称</th>
+					                      <th class="text-center">操作</th>
+			                          </tr>
+			                      </thead>
+			                      <tbody>
+			                          <tr th:each="contentCategory:${pageUtils.records}">
+			                              <td><input  type="checkbox" name="child" th:value="${contentCategory.id}" ></td>
+				                          <td th:text="${contentCategory.id}">1</td>
+									      <td th:text="${contentCategory.name}">首页轮播广告</td>
+		                                  <td class="text-center">
+		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" th:onclick="|goupdate(${contentCategory.id});|" data-target="#editModal" >修改</button>
+		                                 	  <button type="button" class="btn bg-olive btn-xs"  th:onclick="|deleteContentCategory(${contentCategory.id});|" >删除</button>
+		                                  </td>
+			                          </tr>
+			                      </tbody>
+			                  </table>
+			                  <!--数据列表/-->
+							<!-- 分页组件 -->
+							<div class="row">
+								<div class="col-sm-6"><div class="dataTables_paginate paging_bootstrap" id="sample-table_paginate">
+									<ul class="pagination">
+										<li class="prev"><a th:href="|javascript:goPage(1,${pageUtils.pageSize});|">首页</a></li>
+										<!--<li class="prev" th:if="${pageUtils.pageIndex>1}"><a th:href="|brand_page?pageIndex=${pageUtils.pageIndex-1}&pageSize=${pageUtils.pageSize}|">上一页</a></li>-->
+
+										<li class="next" th:each="num:${pageUtils.numbers}" th:class="${pageUtils.pageIndex==num}? active"><a th:href="|javascript:goPage(${num},${pageUtils.pageSize});|" th:text="${num}">XXX</a></li>
+
+										<!--	<li class="next" th:if="${pageUtils.pageIndex<pageUtils.pageCount}"><a th:href="|brand_page?pageIndex=${pageUtils.pageIndex+1}&pageSize=${pageUtils.pageSize}|">下一页</a></li>-->
+										<li class="next"><a th:href="|javascript:goPage(${pageUtils.pageCount},${pageUtils.pageSize});|">尾页</a></li>
+										<li class="next"><a href="#" th:text="|当前${pageUtils.pageIndex}/${pageUtils.pageCount}页|"></a></li>
+										<li class="next"><a href="#" th:text="|共${pageUtils.totalCount}条|">XXX</a></li>
+									</ul>
+								</div>
+								</div>
+							</div>
+							<!-- 分页组件 -->
+                        </div>
+                        <!-- 数据表格 /-->
+                     </div>
+                    <!-- /.box-body -->
+	            <!-- 分页 -->
+
+  <!-- 新增窗口 -->
+  <form action="#" id="addForm" type="post">
+  <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" >
+		  <div class="modal-content">
+			  <div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				  <h3 id="myModalLabel">广告分类新增</h3>
+			  </div>
+			  <div class="modal-body">
+
+				  <table class="table table-bordered table-striped"  width="800px">
+					  <tr>
+						  <td>分类名称</td>
+						  <td><input name="name"  class="form-control" placeholder="分类名称">  </td>
+					  </tr>
+				  </table>
+			  </div>
+			  <div class="modal-footer">
+				  <button class="btn btn-success" data-dismiss="modal" aria-hidden="true" onclick="addContentCategory();">保存</button>
+				  <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+			  </div>
+		  </div>
+	  </div>
+  </div>
+  </form>
+
+
+  <!-- 编辑窗口 -->
+
+  <form action="#" id="updateForm" type="post">
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" >
+	<div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">广告分类编辑</h3>
+		</div>
+		<div class="modal-body">							
+			
+			<table class="table table-bordered table-striped"  width="800px">
+		      	<tr>
+		      		<td>分类名称</td>
+		      		<td>
+						<input type="hidden" name="id" id="update_id"/>
+						<input name="name" id="update_name" class="form-control" placeholder="分类名称">  </td>
+		      	</tr>
+			 </table>
+			
+		</div>
+		<div class="modal-footer">						
+			<button class="btn btn-success" data-dismiss="modal" aria-hidden="true" onclick="updateContentCategory();">更新</button>
+			<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+		</div>
+	  </div>
+	</div>
+</div>
+  </form>
+    
+</body>
+
+</html>

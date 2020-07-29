@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="easygoadminservice" />
         <module name="easygoadminweb" />
+        <module name="easygoadservice" />
         <module name="easygobrandservice" />
         <module name="easygocommons" />
         <module name="easygoeureka" />

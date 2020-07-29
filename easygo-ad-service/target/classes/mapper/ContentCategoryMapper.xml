@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easygo.mapper.ContentCategoryMapper">
+
+    <select id="getTotalCount" resultType="integer">
+        select count(1) from tb_content_category where del=0 and name like #{name}
+    </select>
+
+    <select id="getContentCategoryPages" resultType="com.easygo.pojo.ContentCategory">
+        select * from tb_content_category where del=0 and name like #{name} limit #{pageStart},#{pageSize}
+    </select>
+
+     <select id="getById" resultType="com.easygo.pojo.ContentCategory">
+         select  * from tb_content_category where id=#{id}
+     </select>
+
+    <insert id="addContentCategory">
+        insert into tb_content_category values(null,#{name},0)
+    </insert>
+
+    <update id="updateContentCategory">
+        update tb_content_category set name=#{name} where id=#{id}
+    </update>
+
+    <update id="deleteContentCategory">
+        update tb_content_category set del=1 where id=#{id}
+    </update>
+
+    <update id="deleteSomeContentCategory">
+        update tb_content_category set del=1 where id in (#{ids})
+    </update>
+
+</mapper>

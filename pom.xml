@@ -20,6 +20,7 @@
         <module>easygo-admin-web</module>
         <module>easygo-commons</module>
         <module>easygo-admin-service</module>
+        <module>easygo-ad-service</module>
     </modules>
 
     <dependencies>

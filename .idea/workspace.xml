@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2c876f-c1ee-4fde-8e72-038ecf5b19a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/AdServiceApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentCategoryMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentCategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-pojo/src/main/java/com/easygo/pojo/ContentCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/easygo-brand-service/target/" />
@@ -15,6 +27,7 @@
     <ignored path="$PROJECT_DIR$/easygo-admin-web/target/" />
     <ignored path="$PROJECT_DIR$/easygo-commons/target/" />
     <ignored path="$PROJECT_DIR$/easygo-admin-service/target/" />
+    <ignored path="$PROJECT_DIR$/easygo-ad-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,26 +54,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="83" column="95" lean-forward="true" selection-start-line="83" selection-start-column="95" selection-end-line="83" selection-end-column="95" />
+            <state relative-caret-position="-45">
+              <caret line="96" column="43" lean-forward="true" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
               <folding>
-                <element signature="e#3509#3515#0" expanded="true" />
-                <element signature="e#4342#4348#0" expanded="true" />
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="192" column="103" lean-forward="true" selection-start-line="192" selection-start-column="50" selection-end-line="192" selection-end-column="103" />
+            <state relative-caret-position="131">
+              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentCategoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
               <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1372#1373#0" expanded="true" />
+                <element signature="e#1442#1443#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentCategoryMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentCategoryMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentCategoryClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="23" column="48" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentCategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -78,36 +156,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>version</find>
-      <find>public</find>
-      <find>com.google.code.gson</find>
-      <find>gson</find>
-      <find>child</find>
-      <find>deleteBrand</find>
-      <find>brand_delete</find>
-      <find>addModal</find>
-      <find>addForm</find>
-      <find>deletesome</find>
-      <find>123455</find>
-      <find>brand_deleteSome1</find>
-      <find>pageUtils.records</find>
-      <find>easygo</find>
-      <find>easygo-brand-service</find>
-      <find>loginForm</find>
-      <find>ip</find>
-      <find>admin_login</find>
       <find>mpanel4</find>
       <find>easygo-admin-service</find>
       <find>layui.all</find>
-      <find>layui</find>
       <find>returnCitySN</find>
       <find>page_index</find>
       <find>index&quot;</find>
       <find>登陆账户</find>
-      <find>alert</find>
       <find>3.jpg</find>
       <find>page_main</find>
       <find>广告管理</find>
+      <find>9003</find>
+      <find>9004</find>
+      <find>getContentCategoryPages</find>
+      <find>contentCategory_page</find>
+      <find>addModal</find>
+      <find>update</find>
+      <find>updateForm</find>
+      <find>deleteBrand</find>
+      <find>deleteSome</find>
+      <find>ckChild</find>
+      <find>selall</find>
+      <find>deletesome</find>
+      <find>修改</find>
+      <find>layui</find>
+      <find>删除</find>
+      <find>deleteContentCategory</find>
+      <find>contentCategory_delete</find>
+      <find>alert</find>
+      <find>deleteSomeContentCategory</find>
+      <find>contentCategory_deleteSome</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,7 +238,18 @@
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/AdminClient.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/LoginLogClient.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/pom.xml" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentCategoryMapperTest.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentCategoryClient.java" />
+        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentCategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html" />
       </list>
     </option>
   </component>
@@ -204,9 +293,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="250" />
-    <option name="y" value="70" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="7" />
+    <option name="y" value="16" />
     <option name="width" value="1750" />
     <option name="height" value="1010" />
   </component>
@@ -221,7 +310,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,42 +320,42 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -277,7 +365,7 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -287,7 +375,7 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -295,7 +383,7 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -364,10 +452,29 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-admin-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-admin-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -378,7 +485,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595817853299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596025090123" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -389,18 +496,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.easygo.mapper" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.easygo" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.easygo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\resources\static\media\layui" />
-      <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\resources\static" />
+      <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\resources\templates" />
       <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\java\com\easygo\controller" />
       <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\java\com\easygo\api" />
-      <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\resources\templates" />
+      <recent name="D:\zrarProjects\easygo\easygo-ad-service\src\main\resources\mapper" />
+      <recent name="D:\zrarProjects\easygo\easygo-ad-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -415,7 +522,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BrandServiceApp">
+  <component name="RunManager" selected="Spring Boot.AdServiceApp">
     <configuration name="AdminMapperTest.adminLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="easygoadminservice" />
       <extension name="coverage">
@@ -432,8 +539,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrandMapperTest.getBrandList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easygobrandservice" />
+    <configuration name="ContentCategoryMapperTest.getContentCategoryPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="easygoadservice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.easygo.mapper.*" />
@@ -441,24 +548,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.easygo.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.easygo.mapper.BrandMapperTest" />
-      <option name="METHOD_NAME" value="getBrandList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BrandMapperTest.testGetByid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easygobrandservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.easygo.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.easygo.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.easygo.mapper.BrandMapperTest" />
-      <option name="METHOD_NAME" value="testGetByid" />
+      <option name="MAIN_CLASS_NAME" value="com.easygo.mapper.ContentCategoryMapperTest" />
+      <option name="METHOD_NAME" value="getContentCategoryPages" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -477,6 +568,19 @@
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdServiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easygoadservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easygo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.easygo.AdServiceApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -523,11 +627,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AdServiceApp" />
         <item itemvalue="Spring Boot.AdminServiceApp" />
         <item itemvalue="Spring Boot.EurekaApp" />
+        <item itemvalue="JUnit.ContentCategoryMapperTest.getContentCategoryPages" />
         <item itemvalue="JUnit.AdminMapperTest.adminLogin" />
-        <item itemvalue="JUnit.BrandMapperTest.testGetByid" />
-        <item itemvalue="JUnit.BrandMapperTest.getBrandList" />
       </list>
     </recent_temporary>
   </component>
@@ -549,19 +653,11 @@
       <workItem from="1595553558196" duration="97000" />
       <workItem from="1595553787310" duration="11648000" />
       <workItem from="1595814204399" duration="3316000" />
+      <workItem from="1596020337801" duration="4688000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BrandMapperTest_getBrandList - 2020.07.21 at 20h 42m 24s.xml">
-      <configuration name="BrandMapperTest.getBrandList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrandMapperTest_getBrandList - 2020.07.21 at 20h 43m 07s.xml">
-      <configuration name="BrandMapperTest.getBrandList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BrandMapperTest_getBrandList - 2020.07.21 at 20h 45m 26s.xml">
-      <configuration name="BrandMapperTest.getBrandList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BrandMapperTest_getBrandList - 2020.07.21 at 20h 46m 28s.xml">
       <configuration name="BrandMapperTest.getBrandList" configurationId="JUnit" />
     </history-entry>
@@ -583,14 +679,24 @@
     <history-entry file="AdminMapperTest_adminLogin - 2020.07.24 at 15h 08m 49s.xml">
       <configuration name="AdminMapperTest.adminLogin" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContentCategoryMapperTest_getContentCategoryPages - 2020.07.29 at 19h 19m 55s.xml">
+      <configuration name="ContentCategoryMapperTest.getContentCategoryPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContentCategoryMapperTest_getContentCategoryPages - 2020.07.29 at 19h 20m 53s.xml">
+      <configuration name="ContentCategoryMapperTest.getContentCategoryPages" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContentCategoryMapperTest_getContentCategoryPages - 2020.07.29 at 19h 21m 25s.xml">
+      <configuration name="ContentCategoryMapperTest.getContentCategoryPages" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59262000" />
+    <option name="totallyTimeSpent" value="63950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="6" y="13" width="1400" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2660858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29955292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -601,7 +707,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3512748" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.61898017" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3846154" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -612,7 +718,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.42492917" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.42455623" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -706,121 +812,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/target/classes/com/easygo/controller/BrandController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1685">
-          <caret line="116" column="41" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#3704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-commons/src/main/java/com.easygo.utils/PageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="120" column="7" selection-start-line="120" selection-start-column="7" selection-end-line="120" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="112" column="23" selection-start-line="13" selection-start-column="4" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/resources/mapper/BrandMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/mapper/AdminMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/easygo-pojo/src/main/java/com/easygo/pojo/LoginLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/mapper/AdminMapper.java" />
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/controller/AdminController.java" />
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/service/impl/AdminServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/com/easygo/service/LoginLogService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/com/easygo/mapper/LoginLogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/AdminServiceApp.java" />
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/com/easygo/service/impl/LoginLogServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/com/easygo/AdminServiceApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-pojo/src/main/java/com/easygo/pojo/Brand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-87">
@@ -911,13 +902,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/LoginLogClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -975,24 +959,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/AdminWebApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="131" column="7" lean-forward="true" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1031,23 +1001,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="11" column="42" lean-forward="true" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-pojo/src/main/java/com/easygo/pojo/ContentCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/BrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentCategoryMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/LoginLogClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/AdminWebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/AdServiceApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+          <folding>
+            <element signature="e#3509#3515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="192" column="103" lean-forward="true" selection-start-line="192" selection-start-column="50" selection-end-line="192" selection-end-column="103" />
+        <state relative-caret-position="1296">
+          <caret line="91" column="24" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="83" column="95" lean-forward="true" selection-start-line="83" selection-start-column="95" selection-end-line="83" selection-end-column="95" />
+        <state relative-caret-position="306">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/lay/modules/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="1814" selection-start-line="1" selection-start-column="1814" selection-end-line="1" selection-end-column="1814" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.3.RELEASE/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="70" column="59" selection-start-line="70" selection-start-column="59" selection-end-line="70" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentCategoryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
           <folding>
-            <element signature="e#3509#3515#0" expanded="true" />
-            <element signature="e#4342#4348#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1372#1373#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="96" column="43" lean-forward="true" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
