@@ -1,0 +1,23 @@
+server:
+  port: 9005
+spring:
+  application:
+      name: easygo-portal-web
+  main:
+    allow-bean-definition-overriding: true
+    #Thymeleaf配置
+  thymeleaf:
+    cache: false
+    encoding: utf-8
+    mode: LEGACYHTML5
+    prefix: classpath:/templates/
+    suffix: .html
+# 配置Eureka信息
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9001/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: easygo-portal-web-9005

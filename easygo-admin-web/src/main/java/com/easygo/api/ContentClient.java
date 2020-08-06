@@ -21,4 +21,6 @@ public interface ContentClient {
      PageUtils<Content> getContent_page(@RequestParam(defaultValue = "1",value = "pageIndex", required = false) Integer pageIndex,
                                               @RequestParam(defaultValue = "5",value = "pageSize", required = false) Integer pageSize);
 
+    @RequestMapping("/content_setStatus")
+     void setStatus(@RequestParam(value = "id") Integer id );
 }

@@ -2,11 +2,362 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c2c876f-c1ee-4fde-8e72-038ecf5b19a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/PortalWebApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/api/ContentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/css/MagicZoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/css/ShopShow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/a_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/a_link.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/add_ad.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_sh_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/b_sh_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/baby_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ban1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/bb_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/bk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/bk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/bk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/bk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/bk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/box_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/brand1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/brand2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/brand3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/brand4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/brand5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/btn_jud.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/btn_log.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/btn_sure.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/buy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/buy2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/c_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/c_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/c_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/c_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/c_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/c_ts.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ca_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ca_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ca_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ca_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/car1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/car2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/care.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/cars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/cars_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/d_a.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/d_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/de1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/de2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/de3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/de4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/de5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/equl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/er.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/food_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/fre_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/h_t.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hb_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/heart_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/his_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/his_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/his_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/his_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/his_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/home_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/hot4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_down_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_mem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_num.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_u.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/i_up_h.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/j_car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/jia.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/jia_b.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/jian.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_1_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_2_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_3_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_4_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/l_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/logo123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/m_i_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/m_i_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/m_i_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/m_i_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/m_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/make_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/mat_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/mat_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/mat_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/mban_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/mban_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/milk_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/mores.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/n_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/n_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/n_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/n_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/n_not.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nav9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/nban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/p_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pa_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/paper_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/peo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/peo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/peo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/peo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/peo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/peo_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/per_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ph_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ph_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ph_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ph_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ph_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ph_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/pro8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ps1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ps2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ps3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ps4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/r_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/r_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/s_close.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/s_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/s_line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/s_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/s_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/s_txt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sbrand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh_1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh_2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh_3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh_4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/sh_5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/simg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/ss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/suc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/t1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/t2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/t3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/t4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/t_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tel_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tel_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tel_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tel_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tel_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tel_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tj_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tj_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tj_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/tm_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/user.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/images/z_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/MagicZoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/ShopShow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/baby_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/bban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/f_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/fban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/hban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/iban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/iepng.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/jquery-1.11.1.min_044d0927.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/jquery-1.4.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/jquery.bxslider_e88acd1b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/jquery.soChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/lrscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/lrscroll_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/mban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/milk_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/n_nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/num.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/p_tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/paper_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/s_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/shade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/tban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/js/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easygo-portal-web/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/content.html" beforeDir="false" afterPath="$PROJECT_DIR$/easygo-admin-web/target/classes/templates/content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/easygo-brand-service/target/" />
@@ -16,6 +367,8 @@
     <ignored path="$PROJECT_DIR$/easygo-commons/target/" />
     <ignored path="$PROJECT_DIR$/easygo-admin-service/target/" />
     <ignored path="$PROJECT_DIR$/easygo-ad-service/target/" />
+    <ignored path="$PROJECT_DIR$/easygo-protal-web/target/" />
+    <ignored path="$PROJECT_DIR$/easygo-portal-web/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,44 +395,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/AdminWebApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="113" column="40" lean-forward="true" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+            <state relative-caret-position="326">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
-                <element signature="e#3509#3515#0" expanded="true" />
-                <element signature="e#4642#4648#0" expanded="true" />
-                <element signature="e#4648#4654#0" expanded="true" />
-                <element signature="e#4654#4660#0" expanded="true" />
-                <element signature="e#4660#4666#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/main.html">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="79" column="43" lean-forward="true" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+            <state relative-caret-position="211">
+              <caret line="51" column="39" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="e#747#748#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -87,17 +478,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentCategoryController.java">
+        <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-30">
-              <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+            <state relative-caret-position="239">
+              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,18 +509,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>3.jpg</find>
-      <find>page_main</find>
-      <find>9003</find>
-      <find>9004</find>
-      <find>getContentCategoryPages</find>
-      <find>contentCategory_page</find>
-      <find>addModal</find>
-      <find>update</find>
-      <find>updateForm</find>
-      <find>deleteBrand</find>
-      <find>deleteSome</find>
-      <find>ckChild</find>
       <find>selall</find>
       <find>deletesome</find>
       <find>修改</find>
@@ -141,10 +523,22 @@
       <find>mapperscan</find>
       <find>getContent_page</find>
       <find>广告管理</find>
-      <find>content_page</find>
       <find>pic</find>
       <find>alert</find>
       <find>p</find>
+      <find>opacity</find>
+      <find>easygo-ad-service</find>
+      <find>/loginLog_logs</find>
+      <find>content_getContentsByCategoryId</find>
+      <find>lunbo_contents</find>
+      <find>有效</find>
+      <find>editModal</find>
+      <find>confirm</find>
+      <find>ajax</find>
+      <find>content_page</find>
+      <find>content_setStatus</find>
+      <find>layer.confirm</find>
+      <find>setNoUse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,21 +549,13 @@
       </map>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/css/style.css" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/easygo-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/BrandServiceApp.java" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/AdminWebAPP.java" />
-        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/AdminWebApp.java" />
-        <option value="$PROJECT_DIR$/easygo-commons/pom.xml" />
-        <option value="$PROJECT_DIR$/easygo-admin-web/pom.xml" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/pom.xml" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/impl/BrandServiceImpl.java" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml" />
-        <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/easygo-brand-service/src/main/java/com/easygo/service/BrandService.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html" />
@@ -201,13 +587,25 @@
         <option value="$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html" />
         <option value="$PROJECT_DIR$/easygo-pojo/src/main/java/com/easygo/pojo/Content.java" />
-        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentService.java" />
-        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentMapper.java" />
-        <option value="$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentMapperTest.java" />
-        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentClient.java" />
-        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/main.html" />
+        <option value="$PROJECT_DIR$/easygo-protal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/easygo-protal-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/easygo-protal-web/src/main/java/com/easygo/api/ContentClient.java" />
+        <option value="$PROJECT_DIR$/easygo-protal-web/src/main/java/com/easygo/PortalWebApp.java" />
+        <option value="$PROJECT_DIR$/easygo-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/easygo-portal-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/api/ContentClient.java" />
+        <option value="$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentMapper.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentMapper.xml" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentMapperTest.java" />
+        <option value="$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentClient.java" />
         <option value="$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content.html" />
       </list>
     </option>
@@ -226,42 +624,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-admin-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-admin-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-admin-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.xzy.easygo:easygo-commons:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-brand-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-brand-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-brand-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="com.xzy.easygo:easygo-commons:1.0-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="easygo-pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="easygo-portal-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -335,16 +698,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,47 +713,37 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-ad-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
@@ -436,16 +779,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
@@ -464,15 +797,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-admin-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
@@ -504,7 +828,25 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-commons" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-commons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -512,21 +854,11 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-commons" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-brand-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="com.easygo.utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
@@ -542,14 +874,25 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-portal-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -557,11 +900,19 @@
             <path>
               <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
               <item name="easygo" type="462c0819:PsiDirectoryNode" />
-              <item name="easygo-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-portal-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easygo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easygo" type="462c0819:PsiDirectoryNode" />
+              <item name="easygo-portal-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -577,13 +928,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596685871935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596701807905" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29327902" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -598,11 +949,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zrarProjects\easygo\easygo-portal-web\src\main\resources" />
+      <recent name="D:\zrarProjects\easygo\easygo-protal-web\src\main\resources" />
+      <recent name="D:\zrarProjects\easygo\easygo-protal-web\src\main\java" />
       <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\resources\templates" />
       <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\java\com\easygo\api" />
-      <recent name="D:\zrarProjects\easygo\easygo-admin-web\src\main\java\com\easygo\controller" />
-      <recent name="D:\zrarProjects\easygo\easygo-ad-service\src\main\resources\mapper" />
-      <recent name="D:\zrarProjects\easygo\easygo-ad-service\src\main\java\com\easygo\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -617,24 +968,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BrandServiceApp">
-    <configuration name="ContentCategoryMapperTest.getContentCategoryPages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="easygoadservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.easygo.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.easygo.mapper" />
-      <option name="MAIN_CLASS_NAME" value="com.easygo.mapper.ContentCategoryMapperTest" />
-      <option name="METHOD_NAME" value="getContentCategoryPages" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContentMapperTest.getContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.AdminServiceApp">
+    <configuration name="ContentMapperTest.updateStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="easygoadservice" />
       <extension name="coverage">
         <pattern>
@@ -644,7 +979,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.easygo.mapper" />
       <option name="MAIN_CLASS_NAME" value="com.easygo.mapper.ContentMapperTest" />
-      <option name="METHOD_NAME" value="getContents" />
+      <option name="METHOD_NAME" value="updateStatus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -720,13 +1055,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PortalWebApp " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="easygo-portal-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easygo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.easygo.PortalWebApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.com.easygo in easygobrandservice" />
+      <item itemvalue="Spring Boot.AdminWebApp" />
+      <item itemvalue="Spring Boot.BrandServiceApp" />
+      <item itemvalue="Spring Boot.AdminServiceApp" />
+      <item itemvalue="Spring Boot.AdServiceApp" />
+      <item itemvalue="Spring Boot.EurekaApp" />
+      <item itemvalue="Spring Boot.PortalWebApp " />
+      <item itemvalue="JUnit.ContentMapperTest.updateStatus" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AdServiceApp" />
         <item itemvalue="Spring Boot.AdminServiceApp" />
+        <item itemvalue="Spring Boot.AdServiceApp" />
         <item itemvalue="Spring Boot.EurekaApp" />
-        <item itemvalue="JUnit.ContentMapperTest.getContents" />
-        <item itemvalue="JUnit.ContentCategoryMapperTest.getContentCategoryPages" />
+        <item itemvalue="JUnit.ContentMapperTest.updateStatus" />
+        <item itemvalue="Spring Boot.PortalWebApp " />
       </list>
     </recent_temporary>
   </component>
@@ -751,14 +1110,11 @@
       <workItem from="1596020337801" duration="4817000" />
       <workItem from="1596093820998" duration="2631000" />
       <workItem from="1596682186507" duration="924000" />
-      <workItem from="1596683169853" duration="2582000" />
+      <workItem from="1596683169853" duration="9706000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BrandMapperTest_getBrandList - 2020.07.21 at 20h 51m 22s.xml">
-      <configuration name="BrandMapperTest.getBrandList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BrandMapperTest_testGetByid - 2020.07.22 at 10h 16m 18s.xml">
       <configuration name="BrandMapperTest.testGetByid" configurationId="JUnit" />
     </history-entry>
@@ -786,9 +1142,12 @@
     <history-entry file="ContentMapperTest_getContents - 2020.08.06 at 10h 58m 53s.xml">
       <configuration name="ContentMapperTest.getContents" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContentMapperTest_updateStatus - 2020.08.06 at 15h 58m 03s.xml">
+      <configuration name="ContentMapperTest.updateStatus" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70216000" />
+    <option name="totallyTimeSpent" value="77340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,8 +1172,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3512748" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3838527" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3427762" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.048158642" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3286119" />
@@ -825,13 +1184,13 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067025" side_tool="true" weight="0.42351276" />
       <window_info anchor="bottom" id="Spring" order="12" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49932975" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Messages" order="14" sideWeight="0.49932975" visible="true" weight="0.2082153" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49932975" weight="0.2082153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32908848" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -918,88 +1277,11 @@
       </map>
     </option>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/static/media/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-commons/src/main/java/com.easygo.utils/MessageResults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/resources/mapper/LoginLogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/CommonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="11" column="42" lean-forward="true" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/BrandMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentCategoryMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/LoginLogClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1055,23 +1337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4290">
-          <caret line="143" column="51" selection-start-line="143" selection-start-column="51" selection-end-line="143" selection-end-column="51" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-pojo/src/main/java/com/easygo/pojo/ContentCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -1093,34 +1358,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#800#801#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5460">
-          <caret line="182" column="59" selection-start-line="182" selection-start-column="53" selection-end-line="182" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1162,23 +1399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/BrandClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-314">
@@ -1193,45 +1413,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-commons/src/main/java/com.easygo.utils/PageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/com/easygo/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -1246,13 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-30">
           <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1291,10 +1469,207 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-portal-web/src/main/resources/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="330" column="22" lean-forward="true" selection-start-line="330" selection-start-column="22" selection-end-line="330" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-portal-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="92" column="27" selection-start-line="13" selection-start-column="4" selection-end-line="92" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-portal-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/AdminClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/LoginLogClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-service/src/main/java/com/easygo/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="50" column="70" selection-start-line="50" selection-start-column="62" selection-end-line="50" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/PortalWebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/api/ContentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="20" column="55" lean-forward="true" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-portal-web/src/main/java/com/easygo/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-portal-web/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-brand-service/src/main/resources/mapper/BrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/resources/mapper/ContentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/ContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/test/java/com/easygo/mapper/ContentMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/mapper/ContentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-ad-service/src/main/java/com/easygo/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/java/com/easygo/api/ContentClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content_category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/easygo-admin-web/src/main/resources/templates/content.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="59" column="32" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        <state relative-caret-position="300">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1350,7 +1725,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>easygopojo</last-edited>
+          <last-edited>easygo-portal-web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

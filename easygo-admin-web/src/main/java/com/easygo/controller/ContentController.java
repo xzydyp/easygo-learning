@@ -2,6 +2,7 @@ package com.easygo.controller;
 
 import com.easygo.api.ContentClient;
 import com.easygo.pojo.Content;
+import com.easygo.utils.MessageResults;
 import com.easygo.utils.PageUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -9,6 +10,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @BelongsProject: easygo
@@ -39,6 +41,23 @@ public class ContentController {
         PageUtils<Content> pageUtils = contentClient.getContent_page(pageIndex, pageSize);
         model.addAttribute("pageUtils",pageUtils);
         return "content";
+    }
+
+
+    @ResponseBody
+    @RequestMapping("/content_setStatus")
+    public MessageResults setStatus(@RequestParam(value = "id") Integer id){
+        MessageResults result=new MessageResults();
+        /**
+         * 业务操作
+         */
+        contentClient.setStatus(id);
+
+
+        result.setCode(200);
+        result.setMessage("修改成功");
+
+        return result;
     }
 
 }

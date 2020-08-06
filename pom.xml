@@ -21,6 +21,7 @@
         <module>easygo-commons</module>
         <module>easygo-admin-service</module>
         <module>easygo-ad-service</module>
+        <module>easygo-portal-web</module>
     </modules>
 
     <dependencies>

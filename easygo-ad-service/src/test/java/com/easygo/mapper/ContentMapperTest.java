@@ -26,4 +26,10 @@ public class ContentMapperTest {
 
     }
 
+
+    @Test
+    public void updateStatus(){
+        int id=10;
+        contentMapper.updateStatus(id);
+    }
 }

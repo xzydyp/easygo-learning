@@ -21,4 +21,6 @@ public interface ContentService {
 
     //查询指定类目下的所有有效广告
      List<Content> getContentsByCategoryId(Integer categoryId);
+
+     void updateStatus(Integer id);
 }

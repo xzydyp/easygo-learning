@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="easygo-portal-web" />
         <module name="easygoadminservice" />
         <module name="easygoadminweb" />
         <module name="easygoadservice" />

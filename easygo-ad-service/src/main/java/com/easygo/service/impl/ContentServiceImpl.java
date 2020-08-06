@@ -37,4 +37,9 @@ public class ContentServiceImpl implements ContentService {
     public List<Content> getContentsByCategoryId(Integer categoryId) {
         return contentMapper.getContentsByCategoryId(categoryId);
     }
+
+    @Override
+    public void updateStatus(Integer id) {
+        contentMapper.updateStatus(id);
+    }
 }

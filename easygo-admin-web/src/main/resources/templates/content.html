@@ -14,8 +14,34 @@
     <link rel="stylesheet" href="../css/style.css">
 	<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
     <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="media/layui/layui.all.js"></script>
     
 </head>
+<script type="application/javascript">
+	function setNoUse(id) {
+		layer.confirm("确定吗？",function () {
+			$.ajax({
+				url: "content_setStatus",
+				data: {"id":id},
+				type: "post",
+				dataType: "json",
+				success: function (result) {
+					if(result.code==200){
+						location.href="content_page";
+					}else{
+						alert(result.message);
+					}
+				}
+
+
+
+			});
+
+		});
+	}
+	
+	
+</script>
 
 <body class="hold-transition skin-red sidebar-mini">
   <!-- .box-body -->
@@ -78,7 +104,7 @@
 									      <td th:text="${content.status=='1'?'有效':'无效'}">有效</td>
 		                                  <td class="text-center">                                           
 		                                 	  <button type="button" class="btn bg-olive btn-xs" data-toggle="modal" data-target="#editModal">修改</button>                                           
-		                                 	  <button type="button" class="btn bg-red-gradient btn-xs" data-toggle="modal" data-target="#editModal" th:text="${content.status=='0'?'有效':'无效'}">无效</button>
+		                                 	  <button type="button" class="btn bg-red-gradient btn-xs" data-toggle="modal" th:onclick="|setNoUse(${content.id});|" th:text="${content.status=='0'?'有效':'无效'}">无效</button>
 		                                  </td>
 			                          </tr>
 			                      </tbody>

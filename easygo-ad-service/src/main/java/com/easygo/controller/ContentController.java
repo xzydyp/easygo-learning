@@ -48,4 +48,10 @@ public class ContentController {
         List<Content> contents = contentService.getContents(map);
         return new PageUtils<>(pageIndex,pageSize,totalCount,contents);
     }
+
+    @RequestMapping("/content_setStatus")
+    public void setStatus (@RequestParam(value = "id") Integer id){
+
+        contentService.updateStatus(id);
+    }
 }
