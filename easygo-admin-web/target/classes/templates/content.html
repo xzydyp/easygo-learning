@@ -57,7 +57,7 @@
 										  <th class="sorting_asc">广告ID</th>
 									      <th class="sorting">分类名称</th>
 									      <th class="sorting">标题</th>
-									   p   <th class="sorting">URL</th>
+										  <th class="sorting">URL</th>
 									      <th class="sorting">图片</th>	
 									      <th class="sorting">排序</th>		
 									      <th class="sorting">是否有效</th>											     						      							
@@ -72,7 +72,7 @@
 									      <td th:text="${content.title}">促销海报1</td>
 									      <td th:text="${content.url}">http://wwww.hb.com/hd1.html</td>
 									      <td>
-									      	<!--<img alt="" th:src="${content.pic}" width="100px" height="50px">-->
+									      	<img alt="" th:src="${content.pic}" width="100px" height="50px">
 									      </td>
 									      <td th:text="${content.sort_order}">1</td>
 									      <td th:text="${content.status=='1'?'有效':'无效'}">有效</td>

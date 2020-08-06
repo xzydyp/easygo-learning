@@ -78,7 +78,7 @@
                 type:"post",
                 dataType:"json",
                 success:function (result) {
-                    alert(JSON.stringify(result));
+                    //alert(JSON.stringify(result));
                     for(var i=1;i<result.length;i++){
                         //<tr><td>admin</td><td>117.159.15.221</td><td>成都</td><td>2018-07-14</td></tr>
                         $("#log_tr").append("<tr><td>"+result[i].no+"</td><td>"+result[i].ip+"</td><td>"+result[i].location+"</td><td>"+result[i].createtime+"</td></tr>");
