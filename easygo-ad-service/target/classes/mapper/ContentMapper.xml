@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.easygo.mapper.ContentMapper">
+
+    <select id="getTotalCount" resultType="integer">
+        select count(1) from tb_content where del=0
+    </select>
+
+    <select id="getContents" resultMap="ContentMap">
+          select C.*,T.`name` from tb_content C INNER JOIN tb_content_category T ON C.category_id=T.id and C.del=0 order by C.id desc
+          limit #{pageStart},#{pageSize}
+    </select>
+
+    <resultMap id="ContentMap" type="com.easygo.pojo.Content">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="url" property="url"/>
+        <result column="pic" property="pic"/>
+        <result column="status" property="status"/>
+        <result column="sort_order" property="sort_order"/>
+        <result column="del" property="del"/>
+        <association property="contentCategory" javaType="com.easygo.pojo.ContentCategory">
+            <id column="category_id" property="id"></id>
+            <result column="name" property="name"></result>
+        </association>
+    </resultMap>
+
+    <select id="getContentsByCategoryId" resultType="com.easygo.pojo.Content">
+        select * from tb_content where del=0 and status=1 and category_id=#{categoryId} order by sort_order asc
+    </select>
+
+
+</mapper>
